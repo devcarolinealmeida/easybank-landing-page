@@ -1,0 +1,22 @@
+/*- Mobile: 375px
+- Desktop: 1440px*/
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+:root {
+    /*colors*/
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+
+    /*typography*/
+    --font-body: font-family: 'Public Sans', sans-serif;
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-bold: 700;
+    --font-size: 18px;
+}
