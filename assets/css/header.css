@@ -11,12 +11,21 @@ header {
 }
 
 .nav__menu {
-    position: absolute;
-    top: 4.5em;
-    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: -100%;
+    top: 6em;
+    width: 80vw;
     background-color: var(--very-light-gray);
     border-radius: 5px;
     padding: 1em 8em;
+    transition: 0.3s;
+}
+/* effects show up menu */
+.nav__menu.active {
+    left: 2.4em;
 }
 
 .nav__item {
@@ -26,21 +35,31 @@ header {
 .nav__link {
     color: var(--dark-blue);
     text-decoration: none;
+    transition: 0.7s ease;
 }
 
 .nav__hamburguer {
     cursor: pointer;
-    
+    display: block;
 }
 
-.hamburguer__icone {
+.hamburguer__bar {
     display: block;
-    background-image: url("../img/icon-hamburger.svg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    width: 1em;
-    height: 1em;
+    background: var(--dark-blue);
+    width: 25px;
+    height: 3px;
+    margin: .5em auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+/* effects for close x menu hamburguer */
+.nav__hamburguer.active .hamburguer__bar:nth-child(2) {
+    opacity: 0;
+}
+.nav__hamburguer.active .hamburguer__bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.nav__hamburguer.active .hamburguer__bar:nth-child(3) {
+    transform: translateY(-16px) rotate(-45deg);
 }
