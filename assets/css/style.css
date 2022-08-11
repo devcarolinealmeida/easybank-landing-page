@@ -2,6 +2,8 @@
 - Desktop: 1440px*/
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+@import url('header.css');
+
 
 :root {
     /*colors*/
@@ -14,9 +16,14 @@
     --white: hsl(0, 0%, 100%);
 
     /*typography*/
-    --font-body: font-family: 'Public Sans', sans-serif;
+    --font-body: 'Public Sans', sans-serif;
     --weight-light: 300;
     --weight-regular: 400;
     --weight-bold: 700;
     --font-size: 18px;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--font-size);
 }
