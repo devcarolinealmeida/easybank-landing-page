@@ -27,4 +27,5 @@
 body {
     font-family: var(--font-body);
     font-size: var(--font-size);
+    color: var(--dark-blue);
 }

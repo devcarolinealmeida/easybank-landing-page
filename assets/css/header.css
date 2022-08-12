@@ -1,5 +1,8 @@
 header {
     background-color: var(--very-light-gray);
+    position:fixed;
+    z-index: 1000;
+    width: 100vw;
 }
 
 .navbar {

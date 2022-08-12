@@ -1,0 +1,52 @@
+.container__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../img/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:contain;
+    margin-bottom: 3em;
+}
+
+.banner {
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.banner__image {
+    width: 95vw;
+    position: relative;
+    top: -60px;
+    z-index: 0;
+}
+
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+}
+
+.main-title {
+    font-weight: var(--weight-light);
+    font-size: 2.3em;
+}
+
+.main-text {
+    color: var(--grayish-blue);
+    line-height: 1.5em;
+    font-size: .8em;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 98%);
+    padding: 1em;
+    border-radius: 50px;
+    border: none;
+    color: var(--very-light-gray);
+    width: 50%;
+}
