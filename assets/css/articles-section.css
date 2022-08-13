@@ -1,0 +1,47 @@
+.container-articles {
+    margin: 4em 1.5em 3em 1.5em;
+}
+
+.container-articles__title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.articles__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles__card {
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 1em auto;
+}
+
+.articles__card___image {
+    height: 20vh;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.articles__card___content {
+    padding: 1.5em 1.5em 2em 1.5em;
+}
+
+.articles__card___autor {
+    font-size: .6em;
+    color: var(--grayish-blue)
+}
+
+.articles__card___title {
+    font-size: 1em;
+    margin: .5em 0;
+}
+
+.articles__card___text {
+    line-height: 1.2em;
+    font-size: .7em;
+}
