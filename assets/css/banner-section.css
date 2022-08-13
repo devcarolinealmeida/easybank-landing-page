@@ -7,6 +7,7 @@
     background-position: top;
     background-size:contain;
     margin-bottom: 3em;
+    min-height: 80vh;
 }
 
 .banner {
@@ -24,11 +25,11 @@
 .banner__content {
     display: flex;
     flex-direction: column;
-    margin: 0 1.5em;
+    margin: 1em 1.5em;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 30vh;
+    min-height: 30vh;
 }
 
 .main-title {
