@@ -1,3 +1,59 @@
 .container-icons {
     background-color: var(--very-light-gray);
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 2em 0;
+}
+
+.container-icons__description, .icon__list {
+    margin: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container-icons__description{
+    margin-bottom: 2em;
+}
+
+.container-icons_title {
+    font-size: 1.5em;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+/* icon list */
+.icon__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    margin-bottom: 1.8em;
+}
+
+.icon__title {
+    font-size: 1em;
+    display: block;
+}
+
+.icon__image {
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.icon__image--onlineBanking {
+    background-image: url('../img/icon-online.svg');
+}
+.icon__image--simpleBudgeting {
+    background-image: url('../img/icon-budgeting.svg');
+}
+.icon__image--fastOnboarding {
+    background-image: url('../img/icon-onboarding.svg');
+}
+.icon__image--openApi {
+    background-image: url('../img/icon-api.svg');
 }
