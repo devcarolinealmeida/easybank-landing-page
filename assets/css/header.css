@@ -66,3 +66,26 @@ header {
 .nav__hamburguer.active .hamburguer__bar:nth-child(3) {
     transform: translateY(-16px) rotate(-45deg);
 }
+.btn-menu {
+ display: none;       
+}
+
+@media screen and (min-width: 914px) {
+    header {
+        position: static;
+    }
+    .nav__menu {
+        flex-direction: row;
+        position: static;
+        background-color: transparent;  
+        width: 100vh;
+    }
+    .nav__hamburguer {
+        display: none;
+    }
+    .btn-menu {
+        display: inline-block;
+        max-width: 20vw;
+    }
+
+}
