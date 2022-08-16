@@ -67,14 +67,14 @@
     }
     .banner2{
         display: block;
-        height: 60vh;
+        height: 70vh;
     }
     .banner__image2 {
         display: block;
-        width: 60vw;
+        width: 70%;
         position: relative;
-        top: -100px;
-        right: -80px;
+        top: -120px;
+        left: 270px;
     }
     .banner__content {
         margin: auto 2em auto 4em;
