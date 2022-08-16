@@ -46,3 +46,25 @@
     line-height: 1.3em;
     font-size: .7em;
 }
+
+@media screen and (min-width: 1024px) {
+    .container-articles {
+        margin: 4em 4em 3em 4em;
+    }
+    .container-articles__title {
+        text-align: left;
+        
+    }
+    .articles__list {
+        flex-direction: row;
+    }
+    .articles__card {
+        margin: .8em 1em 1em 0;
+    }
+    .articles__card___image {
+        height: 30vh;
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+}
