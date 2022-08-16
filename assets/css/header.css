@@ -72,7 +72,7 @@ header {
 
 @media screen and (min-width: 1024px) {
     header {
-        position: static;
+        position: relative;
     }
     .nav__menu {
         flex-direction: row;

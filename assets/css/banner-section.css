@@ -21,6 +21,9 @@
     top: -60px;
     z-index: 0;
 }
+.banner__image2, .banner2 {
+    display: none;
+}
 
 .banner__content {
     display: flex;
@@ -50,4 +53,32 @@
     border: none;
     color: var(--very-light-gray);
     width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__banner{
+        flex-direction: row;
+        background-image: none;
+        min-height: 10%;
+        margin-bottom: 0;
+    }
+    .banner__image, .banner{
+        display: none;
+    }
+    .banner2{
+        display: block;
+    }
+    .banner__image2 {
+        display: block;
+        width: 40vw;
+        position: relative;
+        top: -100px;
+    }
+    .banner__content {
+        margin: auto 4em;
+        width: 30%;
+        min-height: 25vh;
+        text-align: left;
+        align-items:flex-start;
+    }
 }
