@@ -59,7 +59,7 @@
     .container__banner{
         flex-direction: row;
         background-image: none;
-        min-height: 10%;
+        min-height: fit-content;
         margin-bottom: 0;
     }
     .banner__image, .banner{
@@ -67,18 +67,23 @@
     }
     .banner2{
         display: block;
+        height: 60vh;
     }
     .banner__image2 {
         display: block;
-        width: 40vw;
+        width: 60vw;
         position: relative;
         top: -100px;
+        right: -80px;
     }
     .banner__content {
-        margin: auto 4em;
+        margin: auto 2em auto 4em;
         width: 30%;
-        min-height: 25vh;
+        min-height: 20vh;
         text-align: left;
         align-items:flex-start;
+    }
+    .banner__content > p {
+        margin: 2em 0;
     }
 }
