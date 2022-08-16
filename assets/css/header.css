@@ -70,7 +70,7 @@ header {
  display: none;       
 }
 
-@media screen and (min-width: 914px) {
+@media screen and (min-width: 1024px) {
     header {
         position: static;
     }
@@ -85,7 +85,12 @@ header {
     }
     .btn-menu {
         display: inline-block;
-        max-width: 20vw;
+        min-width: 13vw;
+        height: 7vh;
     }
-
+    .navbar {
+        min-height: 1em;
+        padding: 1em 1em;
+        margin: 0 4em;
+    }
 }
