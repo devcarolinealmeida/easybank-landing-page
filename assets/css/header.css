@@ -91,7 +91,7 @@ header {
     }
     .navbar {
         min-height: 1em;
-        padding: 1em 1em;
+        padding: 0em 0em;
         margin: 0 4em;
     }
     .nav__link:hover {
