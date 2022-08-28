@@ -67,4 +67,9 @@
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
     }
+    .articles__card:hover {
+        background-color: var(--light-grayish-blue);
+        cursor: pointer;
+        color: var(--lime-green);
+    }
 }
