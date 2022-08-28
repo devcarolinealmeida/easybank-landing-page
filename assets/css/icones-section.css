@@ -67,18 +67,18 @@
     }
     .container-icons_title {
         width: 100%;
-        margin-bottom: 1em;
+        margin-bottom: .7em;
     }
     .icon__list {
         flex-direction: row;
         margin: 1em 4em 0 4em;
     }
     .icon__item {
-        margin-bottom: 1.8em;
         text-align: left;
         align-items: flex-start;
         height: 230px;
         margin-right: 1.3em;
     }
+    
     
 }
