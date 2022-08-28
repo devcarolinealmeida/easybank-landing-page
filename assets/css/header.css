@@ -94,4 +94,9 @@ header {
         padding: 1em 1em;
         margin: 0 4em;
     }
+    .nav__link:hover {
+        border-bottom: 2px solid var(--lime-green);
+        padding-bottom: 2.5em;
+        color: var(--lime-green);
+    }
 }
