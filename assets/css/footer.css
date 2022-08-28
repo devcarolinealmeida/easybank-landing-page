@@ -57,16 +57,27 @@ footer {
     }
     .container-footer {
         flex-direction: row;
-        align-items:center;
         justify-content: space-between;
         margin: 2em 4em;
         width: 100%;
+        height: 15vh;
     }
     .footer-collumn-logo {
         text-align: left;
     }
-   
-    
+    .footer__list-menu {
+        text-align: left;
+        display: flex;
+        margin-right: 4em;
+    }
+    .footer-collumn-list {
+        margin-right: 3em;
+    }
+    .footer__list-menu__link {
+       
+        display: block;
+        width: 100%;
+    }
     .footer-collumn-right, .footer-text {
         text-align: right;
     }
