@@ -1,9 +1,7 @@
 footer {
     background-color: var(--dark-blue);
-    min-height: 70vh;
+    min-height: 65vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .container-footer {
@@ -11,16 +9,20 @@ footer {
     flex-direction: column;
     align-items:center;
     justify-content: space-between;
-    min-height: 60vh;
-    margin: 1em auto;
+    margin: 3em auto;
+    max-height: 70vh;
 }
 
+.footer-collumn-logo, .footer-collumn-right {
+    text-align: center;
+}
 .footer__logo {
     filter: brightness(0) invert(1);
 }
 
 .footer__list-icons {
     display: flex;
+    margin-top: 1.5em;
 }
 
 .footer__list-icons__item {
@@ -44,6 +46,7 @@ footer {
     font-size: .6em;
     display: block;
     text-align: center;
+    margin-top: 2em;
 }
 
 @media screen and (min-width: 1024px) {
