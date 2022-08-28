@@ -53,6 +53,7 @@
     border: none;
     color: var(--very-light-gray);
     width: 50%;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
@@ -89,5 +90,8 @@
     }
     .banner__content > p {
         margin: 2em 0;
+    }
+    .btn:hover {
+        opacity: 0.6;
     }
 }
