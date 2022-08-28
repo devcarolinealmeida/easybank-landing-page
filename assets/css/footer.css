@@ -26,9 +26,11 @@ footer {
 }
 
 .footer__list-icons__item {
-    margin-left: 1em;
+    margin-right: 1em;
 }
-
+.footer__list-icons__item:last-child {
+    margin-right: 0;
+}
 .footer__list-menu {
     text-align: center;
 }
@@ -51,30 +53,21 @@ footer {
 
 @media screen and (min-width: 1024px) {
     footer {
-        min-height: 30vh;
-        width: 100%;
+        min-height: 5vh;
     }
     .container-footer {
         flex-direction: row;
-        align-content: space-between;
-        justify-items: center;
-        min-height: 30vh;
+        align-items:center;
+        justify-content: space-between;
+        margin: 2em 4em;
         width: 100%;
-        margin: 1em 4em;   
     }
     .footer-collumn-logo {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100px;
+        text-align: left;
     }
-    .footer-collumn-list {
-        /* display: flex;
-        flex-direction: column;
-        flex-wrap: wrap; */
-        display: none;
-    }
-    .footer-collumn-right {
-        display: none;
+   
+    
+    .footer-collumn-right, .footer-text {
+        text-align: right;
     }
 }
