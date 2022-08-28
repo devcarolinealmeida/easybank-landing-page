@@ -62,7 +62,6 @@
         background-position: right;
         background-size:contain;
         flex-direction: row;
-        
         min-height: fit-content;
         margin-bottom: 0;
     }
@@ -72,6 +71,7 @@
     .banner2{
         display: block;
         height: 70vh;
+        overflow: hidden;
     }
     .banner__image2 {
         display: block;
