@@ -74,11 +74,14 @@ footer {
         margin-right: 3em;
     }
     .footer__list-menu__link {
-       
         display: block;
         width: 100%;
     }
     .footer-collumn-right, .footer-text {
         text-align: right;
+    }
+    .footer__list-icons__link:hover, .footer__list-menu__link:hover {
+        filter: invert(60%);
+        cursor: pointer;
     }
 }
