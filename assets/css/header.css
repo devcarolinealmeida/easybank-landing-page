@@ -96,7 +96,7 @@ header {
     }
     .nav__link:hover {
         border-bottom: 2px solid var(--lime-green);
-        padding-bottom: 2.5em;
+        padding-bottom: 1.7em;
         color: var(--lime-green);
     }
 }
