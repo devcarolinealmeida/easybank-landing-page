@@ -28,7 +28,7 @@ header {
 }
 /* effects show up menu */
 .nav__menu.active {
-    left: 2.4em;
+    left: 2em;
 }
 
 .nav__item {
