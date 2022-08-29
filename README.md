@@ -17,9 +17,11 @@
 # My challenges with this project:
 - Mobile First Approach
 - Overflow hidden and z-index to control the banner images of the first section from Desktop
-- Effects show up menu hamburguer and effects for close x (using JS and CSS)
+- Effects show up menu hamburguer and effects for close x, using JS and CSS. Check it out in the video below:
 
-<img width="294" alt="Schermata 2022-08-29 alle 14 54 15" src="https://user-images.githubusercontent.com/104517812/187208678-8c709d3e-1283-487d-93e4-e6c534ebd4cc.png"><img width="292" alt="Schermata 2022-08-29 alle 14 59 39" src="https://user-images.githubusercontent.com/104517812/187208705-b783da9a-c990-4bbc-97b2-b3c1338e58fd.png">
+https://user-images.githubusercontent.com/104517812/187213759-d5fbf791-389f-4231-b195-7ab88709f35b.mov
+
+
 
 # Link:
 Deploy: https://dev-caroline-easybank.netlify.app/
