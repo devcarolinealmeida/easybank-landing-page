@@ -1,3 +1,7 @@
+main {
+    overflow: hidden;
+}
+
 .container__banner {
     display: flex;
     flex-direction: column;
@@ -8,6 +12,7 @@
     background-size:contain;
     margin-bottom: 3em;
     min-height: 80vh;
+    
 }
 
 .banner {
@@ -21,6 +26,7 @@
     top: -60px;
     z-index: 0;
 }
+
 .banner__image2, .banner2 {
     display: none;
 }
@@ -72,7 +78,8 @@
     .banner2{
         display: block;
         height: 70vh;
-        overflow: hidden;
+        width: 80vw;
+        z-index: 500;
     }
     .banner__image2 {
         display: block;
@@ -80,6 +87,7 @@
         position: relative;
         top: -120px;
         left: 270px;
+        
     }
     .banner__content {
         margin: auto 2em auto 4em;
